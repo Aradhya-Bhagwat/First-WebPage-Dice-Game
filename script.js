@@ -1,11 +1,11 @@
 var list = document.querySelectorAll('img')
 
 const first = Math.floor(Math.random() * 6 ) + 1;
-const imagefirst = 'dice'+first+'.png'
+const imagefirst = 'assets/dice'+first+'.png'
 list[0].setAttribute('src', imagefirst);
 
 const second = Math.floor(Math.random() * 6 ) + 1;
-const imagesecond = 'dice'+second+'.png'
+const imagesecond = 'assets/dice'+second+'.png'
 list[1].setAttribute('src', imagesecond);
 
 if( first > second){
